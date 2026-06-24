@@ -4,19 +4,27 @@ Documentação pública de referência para implantação do **GLPI 11** em uma 
 
 O projeto trata o GLPI como uma plataforma corporativa de serviços, cobrindo TI, Segurança, DevOps, Operações, Financeiro, Pessoas, Compras, Jurídico, Comercial, Customer Success, PMO, Facilities e Marketing.
 
-> Publicação integral da documentação em processamento pelo pipeline do repositório.
-
 ## Conteúdo
 
 - arquitetura de entidades, grupos e perfis;
-- catálogo corporativo de serviços;
-- formulários, regras, filas, aprovações, SLAs e OLAs;
+- instalação com Docker ou em infraestrutura on-premises;
+- pós-instalação e configuração funcional da plataforma;
+- catálogo corporativo, formulários, regras e filas;
+- aprovações, SLA, OLA e notificações;
 - incidentes, requisições, problemas e mudanças;
 - inventário, ativos, contratos, fornecedores e licenças;
 - onboarding, movimentação e offboarding;
-- segurança, LGPD, testes e operação contínua;
-- fluxos em Mermaid;
-- modelos de documentação e implantação.
+- fluxos detalhados por área;
+- testes, indicadores e operação contínua.
+
+## Acesso rápido
+
+- [Guia de implantação](docs/implantacao/README.md)
+- [Configuração funcional](docs/configuracao/README.md)
+- [Catálogo e priorização](docs/05-catalogo.md)
+- [Processos transversais](docs/06-processos-transversais.md)
+- [Financeiro](docs/areas/05-financeiro.md)
+- [Comercial e Pré-vendas](docs/areas/09-comercial-pre-vendas.md)
 
 ## Princípio de arquitetura
 
