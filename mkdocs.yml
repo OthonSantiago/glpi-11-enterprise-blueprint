@@ -1,5 +1,5 @@
 site_name: GLPI 11 Enterprise Blueprint
-site_description: Implantação corporativa do GLPI 11 para uma empresa de serviços de tecnologia
+site_description: Implantacao corporativa do GLPI 11 para uma empresa de servicos de tecnologia
 site_author: Othon Santiago
 repo_name: OthonSantiago/glpi-11-enterprise-blueprint
 repo_url: https://github.com/OthonSantiago/glpi-11-enterprise-blueprint
@@ -25,26 +25,18 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
-  - Início: index.md
-  - Visão geral:
+  - Inicio: index.md
+  - Visao geral:
       - Escopo: 00-visao-geral/01-escopo.md
       - Roadmap: 00-visao-geral/02-roadmap.md
   - Arquitetura:
       - Entidades, grupos e perfis: 01-arquitetura/01-entidades-grupos-perfis.md
-  - Fundação GLPI:
-      - Ordem de implementação: 02-fundacao/01-ordem-implementacao.md
-      - Formulários, regras e SLA: 02-fundacao/02-formularios-regras-sla.md
-  - Catálogo:
-      - Catálogo mestre: 03-catalogo/01-catalogo-mestre.md
-  - Áreas:
-      - Visão geral: 04-areas/index.md
+  - Fundacao GLPI:
+      - Ordem de implementacao: 02-fundacao/01-ordem-implementacao.md
+      - Formularios, regras e SLA: 02-fundacao/02-formularios-regras-sla.md
+  - Catalogo:
+      - Catalogo mestre: 03-catalogo/01-catalogo-mestre.md
+  - Areas:
+      - Visao geral: 04-areas/index.md
       - TI e Service Desk: 04-areas/01-ti-service-desk.md
-      - Segurança da Informação: 04-areas/02-seguranca-informacao.md
-      - Financeiro: 04-areas/03-financeiro.md
-      - Pessoas: 04-areas/04-pessoas.md
-      - Compras e Fornecedores: 04-areas/05-compras-fornecedores.md
-      - Jurídico e Compliance: 04-areas/06-juridico-compliance.md
-      - Operações de Serviços: 04-areas/07-operacoes-servicos.md
-  - Governança:
-      - Segurança, LGPD e operação: 05-governanca/01-seguranca-lgpd-operacao.md
-      - Testes e aceite: 05-governanca/02-testes-aceite.md
+      - Seguranca da Informacao: 04-areas/02-seguranca-informacao.md
