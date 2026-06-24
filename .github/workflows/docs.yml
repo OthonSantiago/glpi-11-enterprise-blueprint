@@ -8,17 +8,30 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: glpi-11-github-pages
+  cancel-in-progress: true
+
 jobs:
-  deploy:
+  validate-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout da main
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+
       - name: Instalar dependências
-        run: pip install -r requirements.txt
-      - name: Publicar
-        run: mkdocs gh-deploy --force
+        run: pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Validar documentação
+        run: mkdocs build --strict --clean
+
+      - name: Publicar na branch gh-pages
+        run: mkdocs gh-deploy --force --clean --remote-branch gh-pages
