@@ -29,6 +29,7 @@ nav:
   - Visão geral:
       - Escopo: 00-visao-geral/01-escopo.md
       - Roadmap: 00-visao-geral/02-roadmap.md
+      - Publicação no GitHub Pages: 00-visao-geral/03-publicacao-github-pages.md
   - Arquitetura: 01-arquitetura/01-entidades-grupos-perfis.md
   - Implantação: implantacao/README.md
   - Configuração:
