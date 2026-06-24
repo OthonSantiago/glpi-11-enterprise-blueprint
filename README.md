@@ -4,6 +4,8 @@ Documentação pública de referência para implantação do **GLPI 11** em uma 
 
 O projeto trata o GLPI como uma plataforma corporativa de serviços, cobrindo TI, Segurança, DevOps, Operações, Financeiro, Pessoas, Compras, Jurídico, Comercial, Customer Success, PMO, Facilities e Marketing.
 
+> Publicação integral da documentação em processamento pelo pipeline do repositório.
+
 ## Conteúdo
 
 - arquitetura de entidades, grupos e perfis;
