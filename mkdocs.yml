@@ -1,5 +1,5 @@
 site_name: GLPI 11 Enterprise Blueprint
-site_description: Implantacao corporativa do GLPI 11 para uma empresa de servicos de tecnologia
+site_description: Implantação corporativa do GLPI 11 para uma empresa de serviços de tecnologia
 site_author: Othon Santiago
 repo_name: OthonSantiago/glpi-11-enterprise-blueprint
 repo_url: https://github.com/OthonSantiago/glpi-11-enterprise-blueprint
@@ -25,18 +25,32 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
-  - Inicio: index.md
-  - Visao geral:
+  - Início: index.md
+  - Visão geral:
       - Escopo: 00-visao-geral/01-escopo.md
       - Roadmap: 00-visao-geral/02-roadmap.md
-  - Arquitetura:
-      - Entidades, grupos e perfis: 01-arquitetura/01-entidades-grupos-perfis.md
-  - Fundacao GLPI:
-      - Ordem de implementacao: 02-fundacao/01-ordem-implementacao.md
-      - Formularios, regras e SLA: 02-fundacao/02-formularios-regras-sla.md
-  - Catalogo:
-      - Catalogo mestre: 03-catalogo/01-catalogo-mestre.md
-  - Areas:
-      - Visao geral: 04-areas/index.md
-      - TI e Service Desk: 04-areas/01-ti-service-desk.md
-      - Seguranca da Informacao: 04-areas/02-seguranca-informacao.md
+  - Arquitetura: 01-arquitetura/01-entidades-grupos-perfis.md
+  - Implantação: implantacao/README.md
+  - Configuração:
+      - Ordem de implementação: 02-fundacao/01-ordem-implementacao.md
+      - Formulários, regras e SLA: 02-fundacao/02-formularios-regras-sla.md
+      - Guia funcional: configuracao/README.md
+  - Catálogo:
+      - Catálogo mestre: 03-catalogo/01-catalogo-mestre.md
+      - Modelo e priorização: 05-catalogo.md
+  - Áreas:
+      - Visão geral: 04-areas/index.md
+      - TI e Service Desk: areas/01-ti.md
+      - Segurança da Informação: areas/02-seguranca.md
+      - DevOps e Aplicações: areas/03-devops-aplicacoes.md
+      - Operações de Serviços: areas/04-operacoes-servicos.md
+      - Financeiro: areas/05-financeiro.md
+      - Pessoas: areas/06-pessoas.md
+      - Compras e Fornecedores: areas/07-compras-fornecedores.md
+      - Jurídico e Compliance: areas/08-juridico-compliance.md
+      - Comercial e Pré-vendas: areas/09-comercial-pre-vendas.md
+      - Customer Success: areas/10-customer-success.md
+      - PMO e Projetos: areas/11-pmo-projetos.md
+      - Facilities: areas/12-facilities.md
+      - Marketing: areas/13-marketing.md
+  - Processos transversais: 06-processos-transversais.md
